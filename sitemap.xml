@@ -18,15 +18,21 @@
 		<loc>https://dentech.com/sitemap.xml/request-a-demo.html</loc>
 	</url>
 	<url>
-		<loc>https://dentech.com/sitemap.xml/product-roadmap.html</loc>
+		<loc>https://dentech.com/sitemap.xml/voice-activated-charting.html</loc>
 	</url>
 	<url>
-		<loc>https://dentech.com/sitemap.xml/page7.html</loc>
+		<loc>https://dentech.com/sitemap.xml/document-management.html</loc>
 	</url>
 	<url>
-		<loc>https://dentech.com/sitemap.xml/page8.html</loc>
+		<loc>https://dentech.com/sitemap.xml/digital-imaging.html</loc>
 	</url>
 	<url>
-		<loc>https://dentech.com/sitemap.xml/page9.html</loc>
+		<loc>https://dentech.com/sitemap.xml/patient-communication.html</loc>
+	</url>
+	<url>
+		<loc>https://dentech.com/sitemap.xml/patient-check-in.html</loc>
+	</url>
+	<url>
+		<loc>https://dentech.com/sitemap.xml/roadmap.html</loc>
 	</url>
 </urlset>
