@@ -15,9 +15,6 @@
 		<loc>https://dentech.com/sitemap.xml/go-to-assist.html</loc>
 	</url>
 	<url>
-		<loc>https://dentech.com/sitemap.xml/request-a-demo.html</loc>
-	</url>
-	<url>
 		<loc>https://dentech.com/sitemap.xml/voice-activated-charting.html</loc>
 	</url>
 	<url>
@@ -75,12 +72,15 @@
 		<loc>https://dentech.com/sitemap.xml/page24.html</loc>
 	</url>
 	<url>
-		<loc>https://dentech.com/sitemap.xml/page25.html</loc>
-	</url>
-	<url>
 		<loc>https://dentech.com/sitemap.xml/dental-sensors.html</loc>
 	</url>
 	<url>
 		<loc>https://dentech.com/sitemap.xml/dental-cameras.html</loc>
+	</url>
+	<url>
+		<loc>https://dentech.com/sitemap.xml/resources.html</loc>
+	</url>
+	<url>
+		<loc>https://dentech.com/sitemap.xml/schedule-demo.html</loc>
 	</url>
 </urlset>
