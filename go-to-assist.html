@@ -7,10 +7,10 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
   <link rel="shortcut icon" href="assets/images/dentech-logo-200x200.png" type="image/x-icon">
-  <meta name="description" content="">
+  <meta name="description" content="Go to Assist remote support for Dentech Dental PMS systems. For immediate assistance call (866) 549-8702">
   <meta name="amp-script-src" content="">
   
-  <title>Go to Assist</title>
+  <title>Dentech | Go to Assist</title>
   
 <link rel="canonical" href="https://dentech.com/go-to-assist.html">
  <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style>
@@ -32,7 +32,8 @@ body{font-family: Inter;}blockquote{border-color: #14a800;}div[submit-success] >
   custom-element="amp-iframe"  
   src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"
 ></script>
-<script async custom-template="amp-mustache" src="https://cdn.ampproject.org/v0/amp-mustache-0.2.js"></script>
+<script async custom-template="amp-mustache" src="https://cdn.ampproject.org/v0/amp-mustache-0.2.js"></script><script async custom-element="amp-script" src="https://cdn.ampproject.org/v0/amp-script-0.1.js"></script>
+<script async custom-element="amp-script" src="https://cdn.ampproject.org/v0/amp-script-0.1.js"></script>
   
 </head>
 <body><amp-sidebar id="sidebar" class="cid-szNvJzLu81" layout="nodisplay" side="right">
@@ -54,8 +55,8 @@ body{font-family: Inter;}blockquote{border-color: #14a800;}div[submit-success] >
                     <a class="nav-link link text-white text-primary display-4" href="support.html" aria-expanded="false">Support</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link link text-white display-4" href="#" aria-expanded="false">Resources</a>
-                </li><li class="nav-item"><a class="nav-link link text-white text-primary display-4" href="about.html">About</a></li><li class="nav-item"><a class="nav-link link text-white text-primary display-4" href="https://blog.dentech.com">Blog</a></li></ul>
+                    <a class="nav-link link text-white text-primary display-4" href="resources.html" aria-expanded="false">Resources</a>
+                </li><li class="nav-item"><a class="nav-link link text-white text-primary display-4" href="about.html">About</a></li><li class="nav-item"><a class="nav-link link text-white text-primary display-4" href="https://blog.dentech.com/" target="_blank">Blog</a></li></ul>
             
             <div class="navbar-buttons mbr-section-btn align-center"><a class="btn btn-sm btn-info display-4" href="request-a-demo.html">Schedule Demo</a></div>
       </div>
@@ -94,8 +95,8 @@ body{font-family: Inter;}blockquote{border-color: #14a800;}div[submit-success] >
                     <a class="nav-link link text-white text-primary display-4" href="support.html" aria-expanded="false">Support</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link link text-white display-4" href="#" aria-expanded="false">Resources</a>
-                </li><li class="nav-item"><a class="nav-link link text-white text-primary display-4" href="about.html">About</a></li><li class="nav-item"><a class="nav-link link text-white text-primary display-4" href="https://blog.dentech.com">Blog</a></li></ul>
+                    <a class="nav-link link text-white text-primary display-4" href="resources.html" aria-expanded="false">Resources</a>
+                </li><li class="nav-item"><a class="nav-link link text-white text-primary display-4" href="about.html">About</a></li><li class="nav-item"><a class="nav-link link text-white text-primary display-4" href="https://blog.dentech.com/" target="_blank">Blog</a></li></ul>
             
             <div class="navbar-buttons mbr-section-btn align-center"><a class="btn btn-sm btn-info display-4" href="request-a-demo.html">Schedule Demo</a></div>
       </div>
@@ -162,63 +163,22 @@ body{font-family: Inter;}blockquote{border-color: #14a800;}div[submit-success] >
 
 </section>
 
-<div id="custom-html-2q"><amp-iframe width="200" height="100" sandbox="allow-scripts allow-same-origin" layout="responsive" frameborder="0">
+<div id="custom-html-2q"><amp-script layout="fixed-height" height="36" script="time-script" class="sample">
+  <div>
+    The time at page load was: <span id="time" class="answer-text"></span>
+  </div>
+</amp-script>
 
+<script id="time-script" type="text/plain" target="amp-script">
+  const fetchCurrentTime = async () => {
+    const response = await fetch('https://amp.dev/documentation/examples/api/time');
+    const data = await response.json();
+    const span = document.getElementById('time');
+    span.textContent = data.time;
+  }
 
-
-    <title></title>
-    <script type="text/javascript">
-        function pullQueryString() {
-            var error = window.location.search;
-            if (error.substring(0, 1) == "?") {
-                error = error.substring(1);
-            }
-            return error;
-        }
-    </script>
-
-
-    <form name="logmeinsupport" method="post" id="logmeinsupport" action-xhr="https://formoid.net/api/amp-form/push">
-        <div>
-	       <strong><font color="red">
-            <script type="text/javascript">
-                var response = pullQueryString();
-                response = response.substring(22);
- 
-                if(response.toLowerCase() == "pincode_missing"){
-                    document.write("Assisted service can be obtained by first contacting support at 1 (866) 549-8702." + "<br />");
-                }
-                else if(response.toLowerCase() == "pincode_invalid"){
-                    document.write("The PIN code you have entered is invalid." + "<br />");
-                }
-		else if(response.toLowerCase() == "pincode_expired"){
-                    document.write("The PIN code you have entered is expired." + "<br />");
-                }
-		else if(response.toLowerCase() == "pincode_error"){
-                    document.write("The PIN code you have entered is invalid." + "<br />");
-                }
-		else if(response.toLowerCase() == "pincode_alreadyused"){
-                    document.write("The PIN code you have entered has already been used."
- + "<br />");
-                }
-                else{
-                    document.write(response) + "<br />";
-                }
-            </script>
-		         </font></strong>
-            <span>Remote Access Session # * </span><input type="text" name="Code"><br><br>
-            <input type="checkbox"><span>I hereby grant remote access of my system to a Dentech representative for remote diagnostic, troubleshooting and/or repair.  Dentech is not responsible for any loss of data. </span>
-<br>
-<br>
-            <input type="submit" value="Connect to technician">
-            <input type="hidden" name="tracking0" maxlength="64"> <!-- optional -->
-            <input type="hidden" name="language" maxlength="5"> <!-- optional -->
-            <input type="hidden" name="hostederrorhandling" value="1">
-        </div>
-    </form>
-
-
-</amp-iframe></div>
+  fetchCurrentTime();
+</script></div>
 
 <section class="footer3 cid-szQGIKnm1Z" id="footer3-cc">
 
@@ -235,7 +195,7 @@ body{font-family: Inter;}blockquote{border-color: #14a800;}div[submit-success] >
                     
                     
                 <p class="item mbr-semibold mbr-fonts-style mbr-py-1 display-4">
-                        Careers</p><p class="item mbr-semibold mbr-fonts-style mbr-py-1 display-4">About</p><p class="item mbr-semibold mbr-fonts-style mbr-py-1 display-4">ePayments<br></p></div>
+                        <a href="careers.html" class="text-primary">Careers</a></p><p class="item mbr-semibold mbr-fonts-style mbr-py-1 display-4"><a href="about.html" class="text-primary">About</a><br><br><a href="contact.html" class="text-primary">Contact</a></p><p class="item mbr-semibold mbr-fonts-style mbr-py-1 display-4"><a href="page33.html" class="text-primary">ePayments</a><br></p></div>
             </div>
 
             <div class="items-col mbr-col-sm-12 mbr-col-lg-3 align-center mbr-col-md-6">
@@ -246,9 +206,9 @@ body{font-family: Inter;}blockquote{border-color: #14a800;}div[submit-success] >
                     
                     
                 <p class="item mbr-semibold mbr-fonts-style mbr-py-1 display-4">
-                        Resources</p><p class="item mbr-semibold mbr-fonts-style mbr-py-1 display-4">
+                        <a href="resources.html" class="text-primary">Resources</a></p><p class="item mbr-semibold mbr-fonts-style mbr-py-1 display-4">
                         Training</p><p class="item mbr-semibold mbr-fonts-style mbr-py-1 display-4">
-                        Product Roadmap</p></div>
+                        <a href="roadmap.html" class="text-primary">Product Roadmap</a></p></div>
             </div>
 
             <div class="items-col mbr-col-sm-12 mbr-col-lg-3 align-center mbr-col-md-6">
@@ -258,10 +218,9 @@ body{font-family: Inter;}blockquote{border-color: #14a800;}div[submit-success] >
                     
                     
                     
-                <p class="item mbr-semibold mbr-fonts-style mbr-py-1 display-4">
-                        Contact Support</p><p class="item mbr-semibold mbr-fonts-style mbr-py-1 display-4">
+                <p class="item mbr-semibold mbr-fonts-style mbr-py-1 display-4"><a href="support.html" class="text-primary">Support</a></p><p class="item mbr-semibold mbr-fonts-style mbr-py-1 display-4">
                         Go To Assist</p><p class="item mbr-semibold mbr-fonts-style mbr-py-1 display-4">
-                        Enhancement Request</p></div>
+                        <a href="enhancement-request.html" class="text-primary">Enhancement Request</a><br><br><a href="privacy-policy.html" class="text-primary">Privacy Policy</a></p></div>
             </div>
 
         </div>
