@@ -1,5 +1,5 @@
 # Redirects from what the browser requests to what we serve
-/gotoassist	/go-to-assist/
+/gotoassist	https://start.dentech.com/go-to-assist/
 /document-management-3/	/document-management/
 /clinical-charting-3/	/voice-activated-charting/
 /contact-us	/contact/
@@ -101,4 +101,7 @@
 /2020/01/we-are-a-paperless-office/	/2018/05/we-are-a-paperless-office/
 /2020/01/are-you-using-interactive-forms/	/2019/12/are-you-using-interactive-forms/
 /2020/05/are-you-losing-money-use-dentech-to-avoid-late-claim-submissions/	/2020/08/are-you-losing-money-use-dentech-to-avoid-late-claim-submissions/
-/early-access-preview/ https://old.dentech.com/early-access-preview/
+/early-access-preview/ https://start.dentech.com/early-access-preview/
+/2021/06/full-stack-developer/ /careers-full-stack-developer.html/
+/2021/04/technical-writer-intern/ /careers-technical-writer.html/
+/early-access-preview/ https://start.dentech.com/go-to-assist/
