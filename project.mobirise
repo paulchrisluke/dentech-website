@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Dentech",
-    "currentPage": "enhancement-request.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise-amp",
       "title": "Mobirise AMP",
@@ -64,36 +64,20 @@
     "imageResize": true,
     "canonical-url": "https://dentech.com",
     "favicon": false,
-    "mbrsiteDomain": "21wf6noixq",
+    "mbrsiteDomain": "0gundwk7y2",
     "robotsSwitcher": true,
     "sitemapSwitcher": true,
     "sitemapSwitcherAuto": "on",
     "siteUrl": "https://dentech.com/sitemap.xml",
-    "gdpr": {
-      "colorText": "#a7a7a7",
-      "colorLink": "#149dcc",
-      "underlineLink": false,
-      "text": "By continuing you agree to our <a href='terms.html'>Terms of Service</a> and <a href='policy.html'>Privacy Policy</a>."
-    },
-    "cookiesAlert": {
-      "customDialogSelector": false,
-      "colorText": "#424a4d",
-      "colorBg": "#eaeff1",
-      "colorButton": "",
-      "colorLink": "#424a4d",
-      "underlineLink": true,
-      "opacity": "99",
-      "opacityOverlay": "80",
-      "text": "We use cookies to give you the best experience. Read our <a href='privacy-policy.html'>cookie policy</a>.",
-      "textButton": "Agree"
-    },
     "uniqCompNum": 698,
     "versionPublish": "5.3.5",
     "screenshot": "screenshot.png",
     "global_footer_custom": "",
     "global_header_custom": "",
     "robotsText": "User-agent: *\nDisallow: /cgi-bin\n",
-    "site_lang": "en-us"
+    "site_lang": "en-us",
+    "cookiesAlert": false,
+    "gdpr": false
   },
   "pages": {
     "index.html": {
