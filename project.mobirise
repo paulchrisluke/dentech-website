@@ -64,7 +64,7 @@
     "imageResize": true,
     "canonical-url": "https://dentech.com",
     "favicon": false,
-    "mbrsiteDomain": "0gundwk7y2",
+    "mbrsiteDomain": "qcizpkacpi",
     "robotsSwitcher": true,
     "sitemapSwitcher": true,
     "sitemapSwitcherAuto": "on",
@@ -77,7 +77,8 @@
     "robotsText": "User-agent: *\nDisallow: /cgi-bin\n",
     "site_lang": "en-us",
     "cookiesAlert": false,
-    "gdpr": false
+    "gdpr": false,
+    "google-analytics": "<script async custom-element=\"amp-analytics\" src=\"https://cdn.ampproject.org/v0/amp-analytics-0.1.js\"></script>\n<amp-analytics type=\"gtag\" data-credentials=\"include\">\n<script type=\"application/json\">\n{\n  \"vars\" : {\n    \"gtag_id\": \"UA-125739925-1\",\n    \"config\" : {\n      \"UA-125739925-1\": { \"groups\": \"default\" }\n    }\n  }\n}\n</script>\n</amp-analytics>"
   },
   "pages": {
     "index.html": {
